@@ -13,18 +13,19 @@ package groovylab
 class Task07 {
 
     static String encryptThis(String s) {
-      String[] s2// result
-      int l
-      //char temp
-      println s.split(' ').eachWithIndex { i, index ->
-          //i = "2"
-          l = i.length() - 1
-          println l
-          s2.put(i[0]+i[l]+i[2:l-1]+i[1])
-          // i[l] = i[1]
-          // i[1] = temp
-      }
-      println s2
+      throw UnsupportedOperationException('Not Implemented!')
+      // String[] s2// result
+      // int l
+      // //char temp
+      // println s.split(' ').eachWithIndex { i, index ->
+      //     //i = "2"
+      //     l = i.length() - 1
+      //     println l
+      //     s2.put(i[0] + i[l] + i[2:l - 1] + i[1])
+      // i[l] = i[1]
+      // i[1] = temp
+      //}
+      //println s2
     }
 
 }
