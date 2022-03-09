@@ -8,11 +8,23 @@ Example:
 Task07.encryptThis("Hello") == "72olle"
 Task07.encryptThis("hello world") == "104olle 119drlo"
 */
-
 package groovylab
 
 class Task07 {
-    public static String encryptThis(String s) {
-        throw UnsupportedOperationException('Not Implemented!')
+
+    static String encryptThis(String s) {
+      String[] s2// result
+      int l
+      //char temp
+      println s.split(' ').eachWithIndex { i, index ->
+          //i = "2"
+          l = i.length() - 1
+          println l
+          s2.put(i[0]+i[l]+i[2:l-1]+i[1])
+          // i[l] = i[1]
+          // i[1] = temp
+      }
+      println s2
     }
+
 }
