@@ -10,7 +10,7 @@ class Task04 {
     static int fib(int n) {
     int a = 0, b = 1
       n.times { // times is used to for looping n times
-       (a, b) = [b, a + b] // groovy way of multiple assignment where a is assigned b and b is assigned  a + b
+         (a, b) = [b, a + b] // groovy way of multiple assignment where a is assigned b and b is assigned  a + b
       }
       return a
     }

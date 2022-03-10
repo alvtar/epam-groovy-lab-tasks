@@ -7,7 +7,7 @@ package groovylab
 class Task03 {
 
     static boolean isSublist(List a, List b) {
-        return a.intersect(b)
+        return a.containsAll(b)
     }
 
 }
